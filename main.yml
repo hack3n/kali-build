@@ -1,0 +1,15 @@
+---
+- name: "Customizing Kali"
+  hosts: localhost
+  connection: local
+  roles:
+    - role: "roles/install-tools"
+    - role: "roles/configure-tmux"
+    - role: "roles/customise-browser"
+    - role: "roles/customise-desktop"
+    - role: "roles/configure-logging"
+    - role: gantsign.visual-studio-code
+      users:
+        - username: "{{ ansible_user_id }}" 
+    - role : "roles/clean-filesystem"
+

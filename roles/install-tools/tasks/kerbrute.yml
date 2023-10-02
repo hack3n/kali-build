@@ -1,0 +1,11 @@
+---
+- name: "Install kerbrute"
+  shell: go install github.com/ropnop/kerbrute@master
+
+- name: "Move kerbrute to opt"
+  copy:
+    src: "{{ ansible_env.HOME }}/go/bin/kerbrute"
+    dest: "/opt/kerbrute"
+    mode: a+x
+  become: true
+  become_method: sudo

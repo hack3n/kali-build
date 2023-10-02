@@ -1,0 +1,12 @@
+---
+- name: "Remove {{ item }}"
+  ansible.builtin.file:
+    state: absent
+    path: "{{ item }}"
+  loop:
+    - "~/Pictures"
+    - "~/Templates"
+    - "~/Videos"
+    - "~/Public"
+    - "~/Music"
+    - "~/Documents"

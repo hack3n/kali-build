@@ -1,0 +1,8 @@
+---
+- name: "Copy wallpaper image"
+  copy:
+    src: "{{ role_path }}/files/wallpaper.jpg"
+    dest: "{{ ansible_env.HOME }}/.wallpaper.jpg"
+
+- name: Set wallpaper
+  shell: xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorVirtual1/workspace0/last-image -s ~/.wallpaper.jpg

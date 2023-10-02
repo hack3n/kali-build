@@ -1,0 +1,10 @@
+---
+- name: "Install dconf-cli package"
+  package:
+    name: "dconf-cli"
+    state: present  
+  become: true
+  become_method: sudo
+
+- include: "desktop.yml"
+- include: "terminal.yml"

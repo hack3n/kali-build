@@ -1,0 +1,5 @@
+- Configure git credentials and global configure
+- add IP to terminal
+- add VPN profiles
+- add and activate burp pro
+- fix bashrc
