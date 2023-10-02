@@ -36,42 +36,29 @@
 
 Ansible build that does some common installs for pentesting workflows.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### Built With
 
-* [![Ansible][Ansible-img]][Ansible-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[![Ansible][Ansible-img]][Ansible-url]
 
 
 ### Installation
 Easy. Clone the repository then `./run.sh`.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Contact
 
 Project Link: [https://github.com/hack3n/kali-build](https://github.com/hack3n/kali-build)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Acknowledgments
 
 * [IppSec](https://www.youtube.com/@ippsec)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
