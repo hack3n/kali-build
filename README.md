@@ -81,6 +81,6 @@ Project Link: [https://github.com/hack3n/kali-build](https://github.com/hack3n/k
 [license-shield]: https://img.shields.io/github/license/hack3n/kali-build.svg?style=for-the-badge
 [license-url]: https://github.com/hack3n/kali-build/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/liam-o-brien-017aa6178/
 [Ansible-img]:https://ansible.com
 [Ansible-url]: https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white
