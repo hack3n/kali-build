@@ -6,5 +6,5 @@
   become: true
   become_method: sudo
 
-- include: "desktop.yml"
-- include: "terminal.yml"
+- import_tasks: "desktop.yml"
+- import_tasks: "terminal.yml"
