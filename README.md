@@ -35,7 +35,10 @@
 ## About The Project
 
 Ansible build that does some common installs for pentesting workflows.
-
+ - [x] Pulls some common tools not included in Kali by default (check `/opt`)
+ - [x] Changes terminal theming for better screenshots
+ - [x] Configured auditd and laurel logging
+ - [x] Removes junky folders from home directories (`~/Pictures`)
 
 ### Built With
 
@@ -43,6 +46,7 @@ Ansible build that does some common installs for pentesting workflows.
 
 
 ### Installation
+
 Easy. Clone the repository then `./run.sh`.
 
 
