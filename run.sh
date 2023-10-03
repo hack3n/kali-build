@@ -2,9 +2,8 @@
 
 cat "$(dirname "$0")/art.txt"
 echo ""
-
-# Generate root token
 sudo whoami
+export PATH=$PATH:/home/kali/.local/bin
 
 # Intall and run ansible
 pip3 install ansible
