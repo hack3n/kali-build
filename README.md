@@ -9,7 +9,7 @@
 <p>
   An Ansible build to configure Kali for a better pentesting workflow.
   <br />
-  <a href="https://github.com/hack3n/kali-build"><strong>Explore the docs »</strong></a>
+  <a href="#installation"><strong>Install »</strong></a>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -47,8 +47,12 @@ Ansible build that does some common installs for pentesting workflows.
 
 ### Installation
 
-Easy. Clone the repository then `./run.sh`.
-
+Easy. Start with a clean Kali VM, clone the repository, then `./run.sh`.
+```bash
+cd ~
+git clone https://github.com/hack3n/kali-build
+./run.sh
+```
 
 ## License
 
@@ -74,4 +78,4 @@ Project Link: [https://github.com/hack3n/kali-build](https://github.com/hack3n/k
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/liam-o-brien-017aa6178/
 [Ansible-img]:https://ansible.com
-[Ansible-url]: https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white
+[Ansible-url]: https://img.shields.io/badge/Ansible-black.svg?style=for-the-badge&logo=ansible&logoColor=white
