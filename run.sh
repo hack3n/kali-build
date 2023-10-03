@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cat "$(dirname "$0")/art.txt"
+echo ""
 
 # Generate root token
 sudo whoami
