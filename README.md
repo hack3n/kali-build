@@ -51,6 +51,7 @@ Easy. Start with a clean Kali VM, clone the repository, then `./run.sh`.
 ```bash
 cd ~
 git clone https://github.com/hack3n/kali-build
+cd kali-build
 ./run.sh
 ```
 
