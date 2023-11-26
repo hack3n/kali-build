@@ -24,7 +24,7 @@
   become: true
   become_method: sudo
 
-- name: "Downloading github releases"
+- name: "Downloading GitHub releases"
   shell: "{{ build_dir.path }}/githubdownload.py {{ item.repo }} {{ item.regex }} {{ item.location }} {% if item.filename is defined %}{{ item.filename }}{% endif %}"
   loop:
     - { repo: "jpillora/chisel",  regex: "_linux_amd64.gz", location: "/opt/chisel" }
@@ -39,8 +39,13 @@
   become: true
   become_method: sudo
 
-- name: Remove temporary build directory
+- name: "Remove temporary build directory"
   ansible.builtin.file:
     path: "{{ build_dir.path }}"
     state: absent
   when: build_dir.path is defined
+
+- name: "Install netexec from GitHub with pipx"
+  community.general.pipx:
+    name: NetExec
+    source: git+https://github.com/Pennyw0rth/NetExec
