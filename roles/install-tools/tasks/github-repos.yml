@@ -32,7 +32,6 @@
     - { repo: "carlospolop/PEASS-ng",  regex: "linpeas.sh", location: "/opt/peas" }
     - { repo: "carlospolop/PEASS-ng",  regex: "winPEASx64.exe", location: "/opt/peas" }
     - { repo: "WithSecureLabs/chainsaw",  regex: "chainsaw_all_", location: "/opt/" }
-    - { repo: "BloodHoundAD/BloodHound", regex: "BloodHound-linux-x64.zip", location: "/opt/" }
     - { repo: "DominicBreuker/pspy", regex: "pspy64", location: "/opt/pspy" }
     - { repo: "DominicBreuker/pspy", regex: "pspy32", location: "/opt/pspy" }
   async: 45
